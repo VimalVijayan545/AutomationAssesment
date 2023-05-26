@@ -1,0 +1,360 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24600800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To user navigate to \"ltimindtree.com\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ltimindtree.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ReachUsSteps.to_user_navigate_to_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T08:02:22.121Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7089470200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate the Reach Us form possible to sumbit",
+        "description": "",
+        "id": "to-validate-ltimindtree-page;to-validate-the-reach-us-form-possible-to-sumbit",
+        "after": [
+          {
+            "result": {
+              "duration": 1125264700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3889409100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To select the option \"Industries\" in menu item and click on Life Science",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Industries\"",
+                  "offset": 21
+                }
+              ],
+              "location": "ReachUsSteps.to_select_the_option_in_menu_item_and_click_on_Life_Science(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1246001500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click on Submit button without entering any form details",
+            "match": {
+              "location": "ReachUsSteps.to_click_on_Submit_button_without_entering_any_form_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5113839000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To check the all mandatory fields should show error messages",
+            "match": {
+              "location": "ReachUsSteps.to_check_the_all_mandatory_fields_should_show_error_messages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75873400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To check the all the messages in the text box in non Mandatory fields",
+            "match": {
+              "location": "ReachUsSteps.to_check_the_all_the_messages_in_the_text_box_in_non_Mandatory_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 910591000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user enter the correct information in the Reach form text fields",
+            "match": {
+              "location": "ReachUsSteps.the_user_enter_the_correct_information_in_the_Reach_form_text_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159570300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To check the list of countries in the list box and check there 203 countries in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "203",
+                  "offset": 63
+                }
+              ],
+              "location": "ReachUsSteps.to_check_the_list_of_countries_in_the_list_box_and_check_there_countries_in_the_list(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198477500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should select the \"Denmark\" country in the list of countries",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Denmark\"",
+                  "offset": 27
+                }
+              ],
+              "location": "ReachUsSteps.the_user_should_select_the_country_in_the_list_of_countries(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103797600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user should accept the terms and Conditions",
+            "match": {
+              "location": "ReachUsSteps.the_user_should_accept_the_terms_and_Conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 593100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user Submit the form",
+            "match": {
+              "location": "ReachUsSteps.the_user_Submit_the_form()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@sc1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10106500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To user navigate to \"ltimindtree.com\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ltimindtree.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ReachUsSteps.to_user_navigate_to_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T08:02:42.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5796311700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To validate search the desired text on the site ltimindtree",
+        "description": "",
+        "id": "to-validate-ltimindtree-page;to-validate-search-the-desired-text-on-the-site-ltimindtree",
+        "after": [
+          {
+            "result": {
+              "duration": 1043489300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 764768500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enter the desired text \"Nordea\"  in the serach box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nordea\"",
+                  "offset": 32
+                }
+              ],
+              "location": "SerachSteps.the_user_enter_the_desired_text_in_the_serach_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12995859500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The serach results should show atlest 2 in the results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "SerachSteps.the_serach_results_should_show_atlest_in_the_results(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2191842100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user click the \"LTI posts robust 3.8% QoQ revenue growth in constant currency; Net Profit jumps 6.6% QoQ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LTI posts robust 3.8% QoQ revenue growth in constant currency; Net Profit jumps 6.6% QoQ\"",
+                  "offset": 19
+                }
+              ],
+              "location": "SerachSteps.the_user_click_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3681827000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "To verify the \"Mikael Spliid\" is the contact at Nordea works and He works as \"Head of WMO IT Solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mikael Spliid\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Head of WMO IT Solutions\"",
+                  "offset": 77
+                }
+              ],
+              "location": "SerachSteps.to_verify_the_is_the_contact_at_Nordea_works_and_He_works_as(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@sc2"
+          }
+        ]
+      }
+    ],
+    "name": "To validate LTIMindtree page",
+    "description": "",
+    "id": "to-validate-ltimindtree-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/demo.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
